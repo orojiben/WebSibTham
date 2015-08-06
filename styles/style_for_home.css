@@ -1,0 +1,297 @@
+body
+{
+	background-color: #42ab9c;
+	/*background: url('../images/bg_home.png');
+	/*background: rgba(102,255,82,1);
+background: -moz-linear-gradient(top, rgba(102,255,82,1) 0%, rgba(64,231,87,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(102,255,82,1)), color-stop(100%, rgba(64,231,87,1)));
+background: -webkit-linear-gradient(top, rgba(102,255,82,1) 0%, rgba(64,231,87,1) 100%);
+background: -o-linear-gradient(top, rgba(102,255,82,1) 0%, rgba(64,231,87,1) 100%);
+background: -ms-linear-gradient(top, rgba(102,255,82,1) 0%, rgba(64,231,87,1) 100%);
+background: linear-gradient(to bottom, rgba(102,255,82,1) 0%, rgba(64,231,87,1) 100%);*/
+
+ /*background-repeat: no-repeat;
+    background-attachment: fixed;*/
+	overflow-x:hidden;
+}/*
+background: url('../images/bg_home.png');
+-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+ background-repeat: no-repeat;
+    background-attachment: fixed;*/
+
+div
+{
+	/*border:1px solid #B494FF;*/
+}
+
+
+
+.teach
+{
+	position:fixed;
+	left:1px;
+	top:1px;
+	width:200px;
+	height:100px;
+	background-color: #ff00ff;
+}
+
+#color_messages
+{
+	  position: absolute;
+  left: 510px;
+  top: 310px;
+  border: 0;
+  padding: 0;
+  border-collapse: collapse;
+  display: none;
+  width: 600px;
+}
+#color_messages  td
+{
+	width:16px;
+	height:16px;
+}
+
+#color_messages_bg
+{
+	  position: absolute;
+  left: 510px;
+  top: 340px;
+  border: 0;
+  padding: 0;
+  border-collapse: collapse;
+  display: none;
+  width: 600px;
+}
+#color_messages_bg td
+{
+	width:16px;
+	height:16px;
+}
+.main_background
+{
+	position: relative;
+	width: 800px;
+	/*height:600px;*/
+	min-height:650px;
+
+	margin:0 auto;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.foot
+{
+	position: fixed;
+	width: 100%;
+	/*height:600px;*/
+	height:60px;
+	left:0px;
+	bottom:0px;
+	background-color:#151515;
+}
+
+/*===========================================================================================================*/
+/*=============================================selectEvent===================================================*/
+/*===========================================================================================================*/
+
+.header
+{
+	position: fixed;
+	width: 100%;
+	height:50px;
+	top:0px;
+	left:0px;
+
+	background: #007251;
+	/*background: url('../images/bg_home.png');*/
+	z-index:2;
+}
+
+.header_foot
+{
+	position: fixed;
+	width: 90%;
+	height:0px;
+	top:50px;
+	left:70px;
+
+	/*background: #00CC00;*/
+	border:1px solid #F8F8F8 ;
+	z-index:2;
+}
+
+.se_chat,.se_subject,.se_entertainment,.se_event,.se_report,.se_logout
+{
+	position: absolute;
+	cursor: pointer;
+	top:10px;
+	color:#F8F8F8 ;
+	width: 125px;
+	height:30px;
+	font-size: 20px;
+	/*border:1px solid #ffffff;
+	/*background: #00CC00;*/
+}
+
+.se_chat
+{
+
+	height:30px;
+
+	left : 325px;
+
+	color: #ffffff;
+	
+	text-align: center;
+	font-weight: 900;
+	line-height: 2em;
+}
+
+
+
+.se_subjec_s
+{
+	position: absolute;
+	left : 138px;
+	top:5px;
+	z-index:1;
+	color: #78c0b6;
+	font-size: 50px;
+	
+}
+
+.se_subject
+{
+	left : 200px;
+
+	height:30px;
+
+
+	font-weight: 900;
+	color: #78c0b6;
+	
+	text-align: center;
+
+	line-height: 2em;
+}
+
+
+.se_entertainment_s
+{
+	position: absolute;
+	left : 268px;
+	top:5px;
+	z-index:1;
+	color: #78c0b6;
+	font-size: 50px;
+}
+
+.se_entertainment
+{
+	left : 450px;
+	height:30px;
+
+
+
+	color: #ffffff;
+	
+	text-align: center;
+	font-weight: 900;
+	line-height: 2em;
+
+}
+
+
+.se_event_s
+{
+	position: absolute;
+	left : 398px;
+	top:5px;
+	z-index:1;
+	color: #78c0b6;
+	font-size: 50px;
+}
+
+.se_event
+{
+	left : 575px;
+	height:30px;
+
+
+
+	color: #ffffff;
+	
+	text-align: center;
+	font-weight: 900;
+	line-height: 2em;
+
+}
+
+
+.se_report_s
+{
+	position: absolute;
+	left : 528px;
+	top:5px;
+	z-index:1;
+	color: #78c0b6;
+	font-size: 50px;
+}
+
+.se_report
+{
+	left : 700px;
+	height:30px;
+
+
+
+	color: #ffffff;
+	
+	text-align: center;
+	font-weight: 900;
+	line-height: 2em;
+
+}
+
+
+.se_logout_s
+{
+	position: absolute;
+	left : 658px;
+	top:5px;
+	z-index:1;
+	color: #78c0b6;
+	font-size: 50px;
+}
+
+.se_logout
+{
+	left : 825px;
+	height:30px;
+
+
+
+	color: #ffffff;
+	
+	text-align: center;
+	font-weight: 900;
+	line-height: 2em;
+}
+
+.se_logout:hover {
+   /* color: #FF00FF;*/
+
+	color:#78c0b6;
+}
+
+/*===========================================================================================================*/
+/*=============================================SubSelectEvent================================================*/
+/*===========================================================================================================*/

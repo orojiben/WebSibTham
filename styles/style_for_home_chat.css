@@ -1,0 +1,250 @@
+.sub_select_chat
+{
+	position: absolute;
+	width: 800px;
+	height:550px;
+	top:50px;
+	display:none;
+}
+
+.messages_chat
+{
+	position: absolute;
+	width: 600px;
+	height:550px;
+}
+
+.box_messages_chat
+{
+	background-color:#EDFAED;
+	position: absolute;
+	width: 600px;
+	height:450px;
+	max-width: 600px;
+	max-height:450px;
+	word-wrap:break-word;
+	margin:auto;
+	overflow:auto;
+	overflow-y: auto;
+	-webkit-border-radius: 20px 99px 20px 20px;
+	-moz-border-radius: 20px 99px 20px 20px;
+	border-radius: 5px 5px 5px 5px;
+	border:1px solid #99FF66;
+}
+
+.user_messages_chat_main
+{
+	position: relative;
+	/*border:1px solid #39DDFF;
+	/*margin-bottom:5px;*/
+	height: auto;
+	min-width: 490px;
+}
+
+.img_user_messages_chat
+{
+	position: absolute;
+	cursor: pointer;
+	top: 0%;
+}
+
+.bg_user_messages_chat{
+	 position: relative;
+	 left: 50px;
+	 max-width: 450px;
+}
+
+.user_messages_chat 
+{
+	display: table-cell;
+    position: relative;
+	width:border-box;
+	max-width: 450px;
+	height: auto;
+    min-height: 20px;
+    padding: 5px;
+
+    border-radius: 7px;
+	left: 0px;
+}
+
+ .user_messages_chat_after 
+  {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: -10px;
+    border-style: solid;
+    border-width: 4px 10px 4px 0;
+    border-color: transparent #037dff;
+    display: block;
+    width: 0;
+	
+
+}
+
+.name_user_messages_chat
+{
+	
+	position: relative;
+	font-weight:normal;color:#000000;letter-spacing:1pt;word-spacing:2pt;font-size:10px;text-align:left;font-family:helvetica, sans-serif;line-height:1;
+	clear:both;
+}
+
+.user_messages_chat_time
+{
+	font-weight:normal;color:#000000;letter-spacing:1pt;word-spacing:2pt;font-size:8px;text-align:left;font-family:helvetica, sans-serif;line-height:1;
+}
+
+.messages
+{
+	vertical-align:middle;
+	font-weight:normal;color:#000000;letter-spacing:1pt;word-spacing:2pt;font-size:16px;text-align:left;font-family:helvetica, sans-serif;line-height:1;
+}
+
+.emo_messages
+{
+	position: relative;
+	vertical-align: middle;
+	top:-2px;
+}
+
+.messages_chat_write
+{
+	position: absolute;
+	word-wrap:break-word;
+	margin:auto;
+	overflow-x:hidden;
+	overflow-y: hidden;
+	opacity:0.9;
+	width: 500px;
+	max-width: 500px;
+	left:2px;
+	
+}
+
+.send_messages_chat
+{
+	position: absolute;
+	top:455px;
+	width: 600px;
+	height:35px;
+	
+}
+
+.btn_send_messages_chat
+{
+	cursor: pointer;
+	position: absolute;
+	left: 510px;
+	width: 90px;
+	height:35px;
+	max-height:35px;
+	border-radius: 2px;
+	background: #00CC00;
+	color: #ffffff;
+	text-align: center;
+	line-height: 2em;
+	font-size:18px;
+}
+
+.btn_send_messages_chat:hover {
+   /* color: #FF00FF;*/
+	color:#009900;
+}
+
+.emoimg_messages_chat
+{
+	position: absolute;
+	top:495px;
+	width: 600px;
+	height:50px;
+
+}
+
+.emo_messages_chat
+{
+	position: absolute;
+	width: 504px;
+	height:50px;
+	max-width:  504px;
+	max-height: 50px;
+	word-wrap:break-word;
+	margin:auto;
+	overflow-x:none;
+	overflow:auto;
+	overflow-y: auto;
+	-webkit-border-radius: 20px 99px 20px 20px;
+	-moz-border-radius: 20px 99px 20px 20px;
+	border-radius: 5px 5px 5px 5px;
+	border:1px solid #00ff00;
+	background:#EDFAED;
+}
+
+.insert_emo
+{
+	cursor: pointer;
+}
+
+.color_messages_chat
+{
+	position: absolute;
+	left:510px;
+	width: 90px;
+	height:50px;
+}
+
+.btn_color_messages_chat
+{
+
+	cursor: pointer;
+	position: absolute;
+	width: 90px;
+	height:25px;
+	max-height:25px;
+	border-radius: 2px;
+	background: #00CC00;
+	color: #ffffff;
+	text-align: center;
+	line-height: 2em;
+}
+
+.btn_color_messages_chat:hover {
+   /* color: #FF00FF;*/
+	color:#009900;
+}
+
+.btn_color_bg_messages_chat
+{
+
+	cursor: pointer;
+	position: absolute;
+	top: 26px;
+	width: 90px;
+	height:25px;
+	max-height:25px;
+	border-radius: 2px;
+	background: #00CC00;
+	color: #ffffff;
+	text-align: center;
+	line-height: 2em;
+}
+
+.btn_color_bg_messages_chat:hover {
+   /* color: #FF00FF;*/
+	color:#009900;
+}
+
+
+.messages_box
+{ 
+	resize: none;
+	overflow:hidden;
+	max-width:500px; 
+	min-width: 500px;
+	height:30px;
+	max-height:30px;
+	border:1px solid #00ff00;
+	border-radius: 2px;
+	opacity:0.85;
+}

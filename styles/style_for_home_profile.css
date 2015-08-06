@@ -1,0 +1,218 @@
+/*===========================================================================================================*/
+/*=============================================My profilr ===================================================*/
+/*===========================================================================================================*/
+.profile_chat
+{
+	position: absolute;
+	width: 195px;
+	height:270px;
+	left:605px;
+	border:1px solid #ffffff;
+	display:none;
+	background-color: #edfaed;
+	border-radius: 4px;
+}
+
+.image_profile_chat
+{
+	position: absolute;
+	width: 150px;
+	height:150px;
+	left:22px;
+	top:10px;
+	border:1px solid #00ff00;
+}
+
+.image_profile_chat_img
+{
+	position: absolute;
+	z-index: 1;
+}
+
+div.image_profile_chat_upload
+{
+	position: absolute;
+	top:120px;
+	width: 32px;
+    height: 32px;
+    background: url('../images/browes_camera.png');
+    overflow: hidden;
+	z-index: 2;
+	 cursor: pointer;
+	display:none;
+}
+
+input.image_profile_chat_upload_input {
+	position: absolute !important;
+    display: block !important;
+    width: 32px !important;
+    height: 32px !important;
+    opacity: 0 !important;
+    overflow: hidden !important;
+	display:none;
+	z-index: 2;
+	cursor: pointer;
+}
+
+.profile_chat_name
+{
+	position: absolute;
+	width: 185px;
+	left:5px;
+	top:170px;
+	border:1px solid #00ff00;
+	font-size:14px;
+	white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+#profile_chat_name_for_edit
+{
+	display:none;
+	border:1px solid #ff0000;
+}
+
+.profile_chat_xeem
+{
+	position: absolute;
+	width: 185px;
+	left:5px;
+	top:195px;
+	border:1px solid #00ff00;
+}
+
+.btn_profile_chat,.btn_profile_add
+{
+	position: absolute;
+	width: 185px;
+	left:5px;
+	top:220px;
+	border:1px solid #00CC00;
+	cursor: pointer;
+	text-align: center;
+	color:#ffffff;
+	background-color:#00CC00;
+}
+
+.btn_profile_add
+{
+	display:none;
+}
+
+/* visited link */
+.btn_profile_add:visited {
+    color: #00FF00;
+}
+
+/* mouse over link */
+.btn_profile_add:hover {
+   /* color: #FF00FF;*/
+	color:#009900;
+	
+}
+
+/* selected link */
+.btn_profile_add:active {
+    /*color: #0000FF;*/
+	background-color:#006600;
+}
+
+/* visited link */
+.btn_profile_chat:visited {
+    color: #00FF00;
+}
+
+/* mouse over link */
+.btn_profile_chat:hover {
+   /* color: #FF00FF;*/
+	color:#009900;
+	
+}
+
+/* selected link */
+.btn_profile_chat:active {
+    /*color: #0000FF;*/
+	background-color:#006600;
+}
+
+/* visited link */
+.btn_back_profile:visited {
+    color: #00FF00;
+}
+
+/* mouse over link */
+.btn_back_profile:hover {
+   /* color: #FF00FF;*/
+	color:#009900;
+	
+}
+
+/* selected link */
+.btn_back_profile:active {
+    /*color: #0000FF;*/
+	background-color:#006600;
+}
+
+.btn_back_profile
+{
+	cursor: pointer;
+	position: absolute;
+	width: 185px;
+	left:5px;
+	top:245px;
+	border:1px solid #00ff00;
+	text-align: center;
+	color:#ffffff;
+	background-color:#00CC00;
+}
+/*===========================================================================================================*/
+/*=========================================My friend profilr ================================================*/
+/*===========================================================================================================*/
+.friends_chat
+{
+	position: absolute;
+	top:280px;
+	width: 195px;
+	height:265px;
+	left:605px;
+	border:1px solid #ffffff;
+	
+	background-color: #edfaed;
+	border-radius: 4px;
+}
+
+.friends_chat_name
+{
+	position: relative;
+	cursor: pointer;
+	font-size:14px;
+	/*border:1px solid #ff00ff;*/
+	background-color:#BCF5A9;
+	margin:2px;
+	width: 190px;
+	height:20px;
+}
+
+.friends_chat_name_in
+{
+	position: absolute;
+	left:23px;
+	width: 145px;
+	/*border:1px solid #00ff00; 15*/
+	height:18px;
+}
+
+.friends_chat_name_in_on
+{
+	position: absolute;
+	left:180px;
+	width: 15px;
+	height:18px;
+	color:#ff0000;
+}
+
+.friends_chat_name_img
+{
+	position: absolute;
+	
+}

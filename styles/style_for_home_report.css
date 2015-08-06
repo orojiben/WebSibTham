@@ -1,0 +1,8 @@
+.sub_se_report
+{
+	position: absolute;
+	width: 800px;
+	height:550px;
+	top:50px;
+	display:none;
+}

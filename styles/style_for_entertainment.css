@@ -1,0 +1,66 @@
+.sub_select_event_fm
+{
+	position: absolute;
+
+	position: absolute;
+	width: 800px;
+	height:550px;
+	top:100px;
+	display : none;
+}
+
+.radio_main
+{
+	position: relative;
+	left :200px;
+}
+
+.radio
+{
+	position: absolute;
+	top:10px;
+	color:#00ff00;
+}
+
+.countListen
+{
+	position: absolute;
+	left :700px;
+	top:5px;
+	color:#78c0b6;
+}
+
+.djN
+{
+	position: absolute;
+	left :220px;
+	top:5px;
+	color:#78c0b6;
+}
+
+.songC
+{
+	position: absolute;
+	left :220px;
+	top:25px;
+	color:#78c0b6;
+}
+
+.number_on_alls
+{
+	position: absolute;
+	left :700px;
+	top:25px;
+	color:#78c0b6;
+}
+
+#cc_strinfo_tracktitle_nkaujhmono {
+  width: 400px;
+  /*border: 1px solid;*/
+  position: absolute;
+  left: 70px;
+  top: 1.5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
